@@ -1,0 +1,246 @@
+html {
+    padding: 0;
+    margin: 0;
+}
+@font-face {
+    font-family: Montserrat;
+    src: url(fonts/Montserrat-Regular.ttf);
+}
+body {
+    font-family: Montserrat;
+}
+.wrapper {
+    display: flex;
+    min-height: 100%;
+    overflow: hidden;
+    flex-direction: column;
+    background-color: #F9F6F1;
+}
+
+.header_nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.spisok_head {
+    list-style-type: none;
+}
+
+.nav_text {
+    display: inline-block;
+    text-align: center;
+}
+.text_nav {
+    display: inline-block;
+}
+.text_nav a {
+    text-decoration: none;
+    font-size: 14px;
+    color: black;
+}
+.text_nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+.nav_cash {
+    display: inline-block;
+}
+.logo_text {
+    display: inline-block;
+    font-size: 24px;
+}
+.container-content {
+    height: 600px;
+}
+.carousel_content {
+    display: inline-block;
+    margin-top: 100px;
+    margin-left: 200px;
+}
+#content_span-1 {
+    font-size: 30px;
+    color: black;
+    font-weight: 400;
+}
+#content_span-2 {
+    font-size: 55px;
+    font-weight: 700;
+}
+.content_button {
+    width: 240px;
+    height: 55px;
+    border: 0;
+    background-color: #D7B399;
+    color: white;
+}
+.carousel_img {
+    
+    float: right;
+    position: relative;
+}
+.rub1990 {
+    position	: absolute;
+	top		: 120px;
+	left		: 400px;
+    width		: 100%;
+    font-size: 32px;
+    font-weight: 700;
+    color:  #D84033;
+
+}
+.rub9900 {
+    position	: absolute;
+	top		: 100px;
+	left		: 420px;
+    width		: 100%;
+    font-size: 22px;
+    font-weight: 700;
+    color:  black;
+    text-decoration: line-through;
+}
+.space-1 {
+    background-color: #212121;
+   text-align: center;
+   padding-top: 5vh;
+   padding-bottom: 5vh;
+}
+.container_content-men {
+    width: 39vw;
+    display: inline-block;
+    background-color:  #F9F6F1;
+
+}
+.men {
+    
+    float: right;
+    margin-top: 40px;
+}
+.men-text {
+    margin-left: 5vw;
+    background-color: #F9F6F1;
+    display: inline-block;
+    position: relative;
+}
+.button_arrow {
+    width: 80px;
+    height: 30px;
+    background-color: #D7B399;
+    border: 0px solid;
+    position: absolute;
+}
+.page-2_h2 {
+    margin-top: 150px;
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 103px;
+}
+.page-2_content-2 {
+    text-align: center;
+}
+.content-2_img {
+    width: 255px;
+    height: 344px;
+    padding-top: 22px;
+    margin-left: 30px;
+    text-align: center;
+    display: inline-block;
+    box-sizing: border-box;
+    border: 1px solid #D7B399;
+}
+.button_all-model {
+    width: 220px;
+    height: 50px;
+    margin-top: 121px;
+    margin-bottom: 150px;
+    background-color: #D7B399;
+    border: 0px solid;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+
+}
+.all-model_arrow {
+    margin-left: 9px;
+}
+.input_email {
+    width: 255px;
+    height: 40px;
+    font-size: 12px;
+    font-weight: 300;
+    color:  #8D8D8D;
+    display: inline-block;
+    margin-left: 15px;
+}
+.button_email {
+    width: 185px;
+    height: 40px;
+    background-color: #D7B399;
+    border: 0px solid;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 500;
+    color: white;
+    margin-left: 35px;
+}
+.space-3 {
+    background-color: #212121;
+   
+   padding-top: 5vh;
+   padding-bottom: 5vh;
+}
+.footer_content {
+    display: inline-block;
+}
+.footer_logo {
+    margin-bottom: 35px;
+}
+.footer_logo_text {
+    width: 200px;
+    height: 88px;
+    font-size: 14px;
+    color: white;
+    display: inline-block;
+   
+}
+.main_url {
+    display: inline-block;
+    text-align: left;
+}
+.footer_media_text {
+    font-size: 10px; 
+    font-weight: 700; 
+    color: white;
+}
+.footer_ul {
+    list-style-type: none;
+    text-align: left;
+   
+}
+
+.footer_ul a {
+    text-decoration: none;
+    font-size: 14px;
+    color: #CBCFD4;
+    text-align: left;
+}
+.footer_copy {
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 14px;
+    justify-content: space-between;
+}
+@media (max-width: 1280px) {
+    .carousel-control-prev {
+        margin-top: -200px;
+        color: black;
+        
+    }
+    .carousel-control-prev-icon {
+        color: black;
+    }
+    .page-1 {
+        height: 35vh;
+    }
+}
